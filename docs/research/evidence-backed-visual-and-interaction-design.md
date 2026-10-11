@@ -335,20 +335,20 @@ Accessed 2026-10-11. Official docs are primary-source claims unless otherwise no
 
 - Official documentation and product homepages are not a substitute for full, hands-on product teardown or independent user research.
 - No controlled usability test has been run for Atlas's design variants as of this document.
-- The proposed palettes have not yet undergone full automated contrast evaluation across all states.
+- A deterministic static token audit now checks 30 core text pairs across three palettes and light/dark themes; all 30 currently pass the 4.5:1 target. This is not a full WCAG audit: focus/disabled/hover states, non-text contrast, artwork, actual rendered colors, zoom/reflow, and assistive-technology behavior still need verification.
 - Performance, touch behavior, keyboard access, and reduced-motion behavior must be verified in an actual interactive prototype.
 - Product-specific claims about current features should be rechecked during implementation because products change.
 
 ## Exit criteria before design approval
 
 - [ ] Three visually distinct directions with the same core tasks and content.
-- [ ] Palette tokens and light/dark combinations checked for contrast.
+- [x] Core text token pairs audited across three palettes and both themes (30/30 pass in static check); full component/state and non-text contrast audit remains open.
 - [ ] Typography and density compared in library, board, graph, and reading contexts.
 - [ ] Pinterest-like masonry and curated shelves tested against a compact list.
 - [ ] Freeform and structured board interactions demonstrated.
 - [ ] Graph exploration includes relationship evidence and a non-graph alternative.
 - [ ] AI synthesis visually distinguishes claims, citations, notes, and uncertainty.
-- [ ] Motion prototype uses the intended React motion library where appropriate and documents CSS/canvas boundaries.
-- [ ] Reduced-motion, keyboard, touch, responsive, loading, empty, error, and partial-extraction states are demonstrated.
-- [ ] Known limitations and evaluation results are documented.
+- [x] Isolated React prototype uses `motion/react` for layout and view transitions; CSS handles simple presentation. Canvas/graph-library choice remains open because this prototype is not a production architecture decision.
+- [ ] Reduced-motion and keyboard paths are represented in the prototype; touch-device, screen-reader, responsive, loading, empty, error, and partial-extraction states still need browser/manual validation.
+- [x] Known limitations and available static-audit results are documented; no controlled usability study or browser test run is claimed.
 - [ ] Owner explicitly approves direction, core flow, and initial scope before production UI work.
