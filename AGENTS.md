@@ -13,12 +13,14 @@ Help build a high-quality personal AI bookshelf through evidence-led research, d
 3. Identify the task's expected outcome and acceptance criteria. If missing, propose them in the plan rather than silently inventing broad scope.
 4. For current product/library/framework facts, check primary documentation and record links and access dates when making research notes.
 5. Clearly separate verified facts, source-reported claims, observations, assumptions, and recommendations.
+6. For production-readiness work, consult the [requirements registry](docs/engineering/requirements-registry.md) and [production readiness operating model](docs/engineering/production-readiness.md). Link changes to requirement IDs when relevant.
 
 ## Research quality
 
 - Prefer first-party product pages, official docs, source code, and reproducible observations.
+- Use the [research methodology](docs/research/research-methodology.md) and [source quality rubric](docs/research/source-quality-rubric.md) for consequential investigations.
 - Cite sources inline in research notes. Record unknowns and contradictions.
-- Do not claim that a local app, website, REA workflow, browser, test suite, or agent was run unless it actually was.
+- Do not claim that a local app, website, browser workflow, test suite, benchmark, or agent was run unless it actually was.
 - When evaluating products, record what was observed, how it was tested, and what is inference.
 - Check license terms for any code, skill, asset, dataset, or design reference proposed for reuse.
 
@@ -41,6 +43,8 @@ Help build a high-quality personal AI bookshelf through evidence-led research, d
 - Do not disable security controls or weaken tests just to get a passing result.
 - Add tests for meaningful behavior and explain how to run them. Run relevant tests and report the actual result, including failures and anything not run.
 - For UI changes, inspect the running application at realistic viewport sizes when tooling permits; check keyboard access, responsive behavior, loading/empty/error states, and visual consistency.
+- Requirements are not complete because prose exists. Mark them Verified only when the acceptance criteria pass and the evidence is linked. Use explicit, time-limited exceptions for approved risk acceptance.
+- Prefer small, automated release gates and operational drills over broad checklists with no evidence.
 
 ## Git and agent coordination
 
