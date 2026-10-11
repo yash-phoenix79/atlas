@@ -43,6 +43,17 @@ Do not call a claim verified merely because several articles repeat the same ori
 
 Citations should be near the claim they support. Prefer specific docs, files, releases, issues, or lines over generic homepages.
 
+## Atlas execution plan
+
+- [Master Execution Plan](../plan/atlas-master-execution-plan.md) — canonical dependency-ordered sequence, gates and current status. Track actionable tasks and evidence in [Issue #15](https://github.com/yash-phoenix79/atlas/issues/15).
+
+- [Locked Working-Backwards Plan](../plan/atlas-working-backwards-plan.md) — locked process baseline, dependency chain, release acceptance conditions, phase gates, agent/skill assignments and current status snapshot.
+- [Multi-Agent First-Principles Research and Build Protocol](multi-agent-first-principles-protocol.md) — independent agent roles, structured debate, end-to-end teardowns, evidence standards and implementation gates.
+- [Agent Systems Lab](agent-systems-lab.md) — agent-system candidates, reverse-engineering protocol, benchmark and adoption gates.
+- [AI Engineering Execution Plan](atlas-ai-engineering-execution-plan.md) — backend/data contracts, paid model API onboarding, ingestion/retrieval, Jev evaluation, AWS AI-DLC pilot, coding-agent coordination, AI agency permissions, evaluation, observability and cost controls.
+- [Atlas Master Execution Roadmap](atlas-master-execution-roadmap.md) — granular tracks for toolchain evaluation, user-job research, product/repository teardowns, safe reverse-engineering agent skills, UI experiments, accessibility/usability validation, MVP approval, backend research, AI-layer evaluation, and production vertical slices. Planning artifact only; it does not mean those tracks have been completed.
+- [Multi-Agent First-Principles Research and Build Protocol](multi-agent-first-principles-protocol.md) — independent agent roles, structured debate, end-to-end teardowns of existing systems, evidence standards, AIDLC pilot and coordinated implementation gates. This is a protocol; it does not claim agent runs or teardowns are complete.
+
 ## Canonical research guides
 
 - [Research methodology](research-methodology.md): repeatable process for framing questions, evaluating alternatives, checking freshness, finding counterevidence, reproducing claims and recording decisions.
