@@ -47,7 +47,7 @@ These are code/design review questions, not proven user failures:
 
 ## Comparative design architectures to prototype
 
-Do not treat colors, fonts or border radius as separate product directions. The meaningful comparison is the organizing model.
+Do not treat colors, fonts or border radius as separate product directions. The meaningful comparison is the organizing model. A first interactive comparison artifact now exists at [atlas-architecture-comparison-lab.html](../mockups/atlas-architecture-comparison-lab.html). It is still an untested prototype; the presence of clickable flows does not establish usability.
 
 ### A. Visual discovery library
 - **Primary metaphor:** editorial visual library / masonry.
