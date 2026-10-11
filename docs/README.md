@@ -5,20 +5,30 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Project governance
 
 - [Project governance and repository standards](project-governance.md): target open-source project contract, contributor workflow, status vocabulary, and friend-onboarding release gate.
-- [Decisions](decisions/): dated product and architecture decisions. The [privacy/trust baseline](decisions/2026-10-11-privacy-trust-baseline.md), [open-source project and design tooling baseline](decisions/2026-10-11-open-source-project-baseline.md), and [security-first decision](decisions/2026-10-11-security-first.md) record accepted process principles.
+- [Decisions](decisions/): dated product and architecture decisions, including the [privacy/trust baseline](decisions/2026-10-11-privacy-trust-baseline.md), [open-source project and design tooling baseline](decisions/2026-10-11-open-source-project-baseline.md), [security-first decision](decisions/2026-10-11-security-first.md), and [production-readiness system decision](decisions/2026-10-11-production-readiness-system.md).
 
 ## Product
 
 - [Product vision](product-vision.md): intended users, problems, product principles, and desired outcomes.
-- [Product feature blueprint](product-feature-blueprint.md): proposed feature map, initial prioritization hypothesis, screen inventory, and mandatory pre-code mockup approval gate.
+- [Product feature blueprint](product-feature-blueprint.md): proposed feature map, prioritization hypothesis, screen inventory, and pre-code mockup approval gate.
 - [Requirements](requirements.md): MVP scope and observable acceptance criteria.
 - [Competitive analysis](competitive-analysis.md): cross-product comparison with sources and confidence.
 
 ## Research and design
 
 - [Research index and plan](research/README.md): sourced research, app teardowns, experiments, and observations.
+- [Research methodology](research/research-methodology.md): repeatable source-first workflow for technical and product research.
+- [Source quality rubric](research/source-quality-rubric.md): source tiers, confidence, freshness, and evidence standards.
+- [Production engineering resources](research/production-engineering-resources.md): curated standards, tools, AI-agent guidance, and operational references.
 - [UI/UX research plan](research/ui-ux-research-plan.md): UX principles, agent-ready UI skill evaluation, mockup plan, and approval gate.
-- [Design Engineer Toolkit](research/design-engineer-toolkit.md): curated use of the supplied design-engineering directory, workflow recommendations, candidate shortlist, and tool adoption rubric.
+- [Design Engineer Toolkit](research/design-engineer-toolkit.md): curated design-engineering workflow and tool adoption rubric.
+
+## Engineering and production readiness
+
+- [Production readiness](engineering/production-readiness.md): operating model, evidence standard, release gates, and exceptions.
+- [Requirements registry](engineering/requirements-registry.md): canonical production-readiness checklist with stable IDs across product, data, testing, reliability, operations, accessibility, cost, AI and governance.
+- [Testing strategy](engineering/testing-strategy.md): unit/integration/E2E layers, failure cases, test data and evidence.
+- [Reliability and operations](engineering/reliability-and-operations.md): SLOs, failure behavior, telemetry, recovery, incident response and cost/capacity.
 
 ## Security and architecture
 
