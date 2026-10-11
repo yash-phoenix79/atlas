@@ -17,6 +17,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Research and design
 
 - [Research index and plan](research/README.md): sourced research, app teardowns, experiments, and observations.
+- [Competitor discovery dossier](research/competitor-discovery-dossier.md): initial landscape review, differentiation hypotheses, MVP implications, and UI/UX principles.
 - [Research methodology](research/research-methodology.md): repeatable source-first workflow for technical and product research.
 - [Source quality rubric](research/source-quality-rubric.md): source tiers, confidence, freshness, and evidence standards.
 - [Production engineering resources](research/production-engineering-resources.md): curated standards, tools, AI-agent guidance, and operational references.
