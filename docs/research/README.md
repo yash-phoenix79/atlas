@@ -73,6 +73,10 @@ Citations should be near the claim they support. Prefer specific docs, files, re
 
 For production readiness, use the canonical [requirements registry](../engineering/requirements-registry.md) and [production readiness operating model](../engineering/production-readiness.md).
 
+## Product model and screen journeys
+
+- [Atlas product model, screen inventory, and journey map](atlas-product-model-screen-inventory-and-journeys.md): canonical resource model, proposed navigation, complete screen inventory, six end-to-end journeys, evidence-backed design implications, evaluation plan, and unresolved decisions. Working proposal; not approved.
+
 ## Visual and interaction design
 
 - [Evidence-backed visual and interaction design research](./evidence-backed-visual-and-interaction-design.md) — proposed color directions and semantic tokens, typography/density, screen jobs, motion, accessibility, responsive behavior, and a validation plan.
