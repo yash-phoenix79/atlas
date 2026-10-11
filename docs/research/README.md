@@ -72,3 +72,28 @@ Citations should be near the claim they support. Prefer specific docs, files, re
 - Do not claim tests, benchmarks, app workflows or tools were run unless they actually were.
 
 For production readiness, use the canonical [requirements registry](../engineering/requirements-registry.md) and [production readiness operating model](../engineering/production-readiness.md).
+
+## Product model and screen journeys
+
+- [Atlas product model, screen inventory, and journey map](atlas-product-model-screen-inventory-and-journeys.md): canonical resource model, proposed navigation, complete screen inventory, six end-to-end journeys, evidence-backed design implications, evaluation plan, and unresolved decisions. Working proposal; not approved.
+
+## Visual and interaction design
+
+- [Evidence-backed visual and interaction design research](./evidence-backed-visual-and-interaction-design.md) — proposed color directions and semantic tokens, typography/density, screen jobs, motion, accessibility, responsive behavior, and a validation plan.
+- [Interaction-model research brief](atlas-interaction-model-research-brief.md) — hypotheses and risks for visual discovery, shared resource identity, spatial boards, graphs, search, reading, AI synthesis, portability, and accessibility.
+- [Screen-to-journey coverage matrix](atlas-screen-journey-coverage-matrix.md) — screen families, priorities, journey coverage, failure/recovery states, prototype acceptance criteria, and open decisions.
+- [Design evaluation and decision gates](atlas-design-evaluation-and-decision-gates.md) — separates heuristic review from automated/manual testing, compares genuinely different design architectures, defines task-based evaluation, and preserves the explicit approval gate.
+- [Comparative usability test script](atlas-comparative-usability-test-script.md) — standardized task prompts, observations, scorecard, analysis rules and stop criteria for comparing architectures fairly. Protocol only; no study has been conducted.
+- [Connected multi-screen journey prototype](../mockups/atlas-connected-journey-prototype.html) — clickable HTML concept spanning Home, Library, Search, Collections, Board, Graph, Resource Detail, Research, Inbox, Capture, and Settings. Illustrative local behavior only; not a production app or approved direction.
+- [Architecture comparison lab](../mockups/atlas-architecture-comparison-lab.html) — three genuinely different organizing models (visual discovery, spatial thinking, source-first research) over the same sample resources, with clickable flows and shared evaluation tasks. Illustrative prototype; not tested or approved.
+
+- [Architecture divergence lab](../mockups/atlas-architecture-divergence-lab.html) — three intentionally different product experiences: editorial visual library, full-bleed spatial canvas, and question-led evidence workbench. Conceptual interactions only; not approved and not production functionality.
+
+## Complete UI/UX review build
+
+- [Complete UI/UX review prototype](../mockups/atlas-complete-ui-review.html) — connected review surface for the core Atlas screens: home, library, search, collections, resource detail/reader, boards, graph, research, insights, inbox, capture, integrations, settings, onboarding, import status, empty/error recovery, bulk actions, and export. Use its **All screens** index to inspect each route. This is a review prototype, not production UI; see the screen inventory for logical routes and states not individually rendered.
+
+## Diagram standards and Atlas diagrams
+
+- [Diagram Design pinned reference](../../vendor/diagram-design/UPSTREAM.md) — upstream commit pin, MIT license, selected vendored design references, and Atlas-specific diagram rules.
+- [Atlas diagram index](../diagrams/README.md) — core library domain, research evidence model, capture state flow, proposed system boundaries, and synthesis sequence. Each diagram includes light/dark theme support and labels proposed architecture explicitly.
