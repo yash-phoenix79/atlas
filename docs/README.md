@@ -5,7 +5,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Project governance
 
 - [Project governance and repository standards](project-governance.md): target open-source project contract, contributor workflow, status vocabulary, and friend-onboarding release gate.
-- [Decisions](decisions/): dated product and architecture decisions. The [privacy/trust baseline](decisions/2026-10-11-privacy-trust-baseline.md) and [open-source project and design tooling baseline](decisions/2026-10-11-open-source-project-baseline.md) record accepted process principles.
+- [Decisions](decisions/): dated product and architecture decisions. The [privacy/trust baseline](decisions/2026-10-11-privacy-trust-baseline.md), [open-source project and design tooling baseline](decisions/2026-10-11-open-source-project-baseline.md), and [security-first decision](decisions/2026-10-11-security-first.md) record accepted process principles.
 
 ## Product
 
