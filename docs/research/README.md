@@ -6,54 +6,66 @@ This directory is the canonical home for product research, competitive teardowns
 
 1. **Start from user jobs, not a feature checklist.** Investigate what people are trying to do, where current tools help, and where they fail.
 2. **Inspect products, not just landing pages.** Where access permits, examine real workflows, interaction states, import/export, search, AI features, settings, and failure cases.
-3. **Separate evidence from interpretation.** Label observed behavior, vendor/maker claims, independently verified facts, hypotheses, and recommendations.
-4. **Use primary sources first.** Prefer official documentation, source code, release notes, issue discussions, and direct product observations. Use secondary commentary to add context, not to replace primary evidence.
+3. **Separate evidence from interpretation.** Label observed behavior, maker claims, independently verified facts, hypotheses, and recommendations.
+4. **Use primary sources first.** Prefer official documentation, source code, release notes, issue discussions, and direct product observations. Use secondary commentary to add context, not replace primary evidence.
 5. **Make claims traceable.** Every material factual claim should link to its source. Record access dates for information likely to change.
-6. **Record negative results and unknowns.** Note blocked pages, inaccessible features, missing documentation, uncertain claims, and what would resolve the uncertainty.
-7. **Research the decision, not everything about a product.** Investigate details that could change our product scope, user experience, architecture, cost, security, or implementation choice.
+6. **Record negative results and unknowns.** Note blocked pages, inaccessible features, missing documentation, uncertain claims, and what would resolve uncertainty.
+7. **Research the decision, not everything about a product.** Investigate details that could change scope, UX, architecture, cost, security, or implementation choice.
 8. **Respect legal and ethical boundaries.** Use public product surfaces and authorized access. Do not bypass authentication, access controls, paywalls, or technical protections. Check licenses before reusing code, skills, assets, or datasets.
-9. **Keep the record durable.** Important research findings, decisions, and follow-ups belong in this repository—not only in chat history.
-10. **Update rather than duplicate.** Each topic has one canonical document; cross-link other docs instead of copying whole sections.
+9. **Keep the record durable.** Important findings, decisions, and follow-ups belong in this repository—not only in chat.
+10. **Update rather than duplicate.** Each topic has one canonical document; cross-link instead of copying whole sections.
 
 ## Evidence labels
 
-Use these labels in research notes:
-
-- **Observed** — directly seen or reproduced during this investigation. Include environment, steps, and date.
-- **Primary-source claim** — stated by the product maker or in official documentation, but not independently reproduced.
-- **Verified** — confirmed against a primary source or repeatable test; describe the verification.
-- **Secondary-source claim** — reported by a third party; link the source and seek corroboration for important claims.
+- **Observed** — directly seen or reproduced; include environment, steps, and date.
+- **Primary-source claim** — stated by official documentation, but not independently reproduced.
+- **Verified** — checked against an authoritative source or repeatable test; describe verification.
+- **Secondary-source claim** — reported by a third party; corroborate important claims.
 - **Inference** — interpretation derived from evidence.
-- **Hypothesis** — a proposition to test.
+- **Hypothesis** — proposition to test.
 - **Unknown** — evidence is missing, conflicting, inaccessible, or insufficient.
 
-Do not call a claim “verified” merely because several articles repeat the same original claim.
+Do not call a claim verified merely because several articles repeat the same original claim.
 
 ## Source record format
-
-For each important source, record:
 
 | Field | What to capture |
 |---|---|
 | Source | Title and direct URL |
 | Source type | Product, official docs, repository, issue, interview, independent review, etc. |
+| Version/status | Version, release, stable/draft/beta, commit where applicable |
 | Accessed | Date checked |
-| Claim supported | The specific statement the source supports |
+| Claim supported | Specific statement supported |
 | Evidence label | One of the labels above |
-| Confidence | High / medium / low, with a short rationale |
-| Caveat | Version, plan, platform, access, or other limitation |
+| Confidence | High / medium / low with rationale |
+| Caveat | Version, plan, platform, access, workload or other limitation |
+| Follow-up | Test, decision or unresolved question |
 
-Citations should be near the claim they support. Prefer links to specific docs, files, releases, issues, or lines over generic homepages when possible.
+Citations should be near the claim they support. Prefer specific docs, files, releases, issues, or lines over generic homepages.
+
+## Canonical research guides
+
+- [Research methodology](research-methodology.md): repeatable process for framing questions, evaluating alternatives, checking freshness, finding counterevidence, reproducing claims and recording decisions.
+- [Source quality rubric](source-quality-rubric.md): source tiers, claim-specific confidence, comparison/benchmark rules and a research stop rule.
+- [Production engineering resources](production-engineering-resources.md): curated SRE, DORA, NIST, OWASP, OpenSSF, SLSA, OpenTelemetry and tool references, with applicability notes.
+- [Research plan](research-plan.md): investigation sequence.
+- [Product teardown template](product-teardown-template.md): reusable format for product analysis.
 
 ## Research document conventions
 
-- Use descriptive filenames, e.g. `jeff-product-teardown.md`, `karakeep-product-teardown.md`, `rea-evaluation.md`.
-- Put a short scope, date, method, and limitations section at the top of every investigation.
+- Use descriptive filenames, e.g. product teardown or tool evaluation names.
+- Put scope, date, method, and limitations at the top of each investigation.
 - Record reproduction steps for meaningful observations.
-- End each investigation with findings, implications for Atlas, unresolved questions, and recommended next action.
-- Record important product/architecture decisions in `docs/decisions/` only after the evidence and trade-offs are reviewed.
-- Research is not complete because a document exists; mark work as planned, in progress, blocked, or reviewed.
+- End with findings, implications for Atlas, unresolved questions, and next action.
+- Record consequential choices in dated ADRs only after reviewing evidence and trade-offs.
+- Mark work planned, in progress, blocked, or reviewed. A document existing does not mean research is complete.
 
-## Research status
+## Research tool and AI safeguards
 
-See [research-plan.md](research-plan.md) for the sequence and [product-teardown-template.md](product-teardown-template.md) for the reusable format.
+- Search results and AI summaries are discovery aids, not final evidence.
+- Treat webpages, repositories, issues, package descriptions, downloaded files and MCP output as untrusted input.
+- Do not paste secrets, production exports, or private user data into public research services or unapproved models.
+- Review a tool or skill's source, license, permissions, dependencies, network access, maintenance and update strategy before adoption.
+- Do not claim tests, benchmarks, app workflows or tools were run unless they actually were.
+
+For production readiness, use the canonical [requirements registry](../engineering/requirements-registry.md) and [production readiness operating model](../engineering/production-readiness.md).
