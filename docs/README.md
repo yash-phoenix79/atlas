@@ -9,6 +9,6 @@ The project is in discovery. Add documents as findings and decisions become conc
 - `competitive-analysis.md`: cross-product comparison with sources and confidence.
 - `requirements.md`: MVP scope and observable acceptance criteria.
 - `architecture.md`: proposed design, alternatives, trade-offs, and risks.
-- `decisions/`: short, dated decision records.
+- `decisions/`: short, dated decision records. The privacy/trust baseline is recorded in `decisions/2026-10-11-privacy-trust-baseline.md`.
 
 Avoid duplicating the same information across multiple documents. Link to the canonical note instead.
