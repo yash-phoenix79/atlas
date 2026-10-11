@@ -25,7 +25,7 @@ Every task should have an ID, priority, dependencies, owner/agent, expected arti
 | Stage | Priority | Work | Required output / exit gate | Status at baseline |
 |---|---|---|---|---|
 | 0. Control plane | P0 | Reconcile repo status, links, backlog, evidence and decision records | Canonical plan/index and linked execution issue; status vocabulary is consistent | Planning docs exist; consolidation tracked in Issue #15 |
-| 1. Repository reality audit | P0 | Inspect actual app, prototypes, manifests, scripts, CI, tests, deployment and PRs; run safe baseline checks | Evidence-backed inventory: implemented/mock/broken/planned/unverified; actual command results | Not yet verified |
+| 1. Repository reality audit | P0 | Inspect actual app, prototypes, manifests, scripts, CI, tests, deployment and PRs; run safe baseline checks | Commit `docs/research/repository-reality-audit.md` with evidence-backed inventory: implemented/mock/broken/planned/unverified; exact commands and actual results | Not yet verified |
 | 2. Existing-system teardowns | P0 | Trace Karakeep, Linkwarden, Readeck and Obsidian end to end, including failure and export paths | Reviewed dossiers and evidence-linked comparison matrix | Planned; not complete |
 | 3. Agent systems lab | P0 | Reverse-engineer ECC, Goose, gstack, the exact AI Agency project, and selected harness/workflow/standards candidates | Safe-source review, separate agent runs, controlled benchmark and adopt/adapt/defer/reject recommendation | Plan exists; no candidate run/benchmark claimed |
 | 4. Requirements and MVP | P0 | Rank user jobs, select first journey, define non-goals, acceptance/evaluation criteria | Owner-approved MVP scope and measurable acceptance criteria | Not approved |
