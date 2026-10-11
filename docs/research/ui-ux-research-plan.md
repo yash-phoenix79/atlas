@@ -88,7 +88,7 @@ Experiment: give two or three candidates the same task and data set in separate 
 Investigate tools by role; don't use every tool by default.
 
 **Mockup/prototype authoring**
-- Figma and its current Dev Mode MCP workflow, if account/tool access makes it useful.
+- [Figma MCP](https://developers.figma.com/docs/figma-mcp-server/): official documentation describes reading design context and writing native canvas content from supported agent clients. Validate supported client, plan/seat limits, access and write capability before making it the assumed deliverable. If unavailable, use a standalone interactive prototype or static screen boards.
 - Static reference boards or an interactive prototype if it gives faster review loops.
 - A coded disposable prototype is allowed for design exploration only, but does not waive the user approval gate before the real application code.
 
@@ -108,7 +108,7 @@ Investigate tools by role; don't use every tool by default.
 - Test desktop and narrow viewports with long titles, missing covers, duplicate resources, broken links, large libraries, and partial imports.
 
 **Potential UI inspiration sources**
-- Actual applications under teardown; pattern libraries such as [Mobbin](https://mobbin.com/) if accessible; trusted design-system docs; well-crafted editorial/library/productivity interfaces.
+- Actual applications under teardown; [Mobbin](https://mobbin.com/) for shipped app/site screens and flows if accessible; trusted design-system docs; well-crafted editorial/library/productivity interfaces. Track subscription/access constraints and cite individual references in our own board.
 - Use Dribbble/Behance-style inspiration carefully: visual polish alone is not evidence of good interaction design.
 
 ### E — Establish the Atlas design system
