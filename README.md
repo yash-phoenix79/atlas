@@ -40,6 +40,10 @@ Bookmarks help us save things, but they do not reliably help us rediscover, conn
 
 See [the locked working-backwards plan](docs/plan/atlas-working-backwards-plan.md) for phases, gates and acceptance criteria.
 
+## Execution tracking
+
+Use [GitHub Issue #15](https://github.com/yash-phoenix79/atlas/issues/15) as the canonical execution backlog and gap register. The master execution plan defines sequence and gates; the issue tracks task status, dependencies, evidence, blockers and completion. Do not treat planned work as verified.
+
 ## Where future agents must start
 
 1. Read [AGENTS.md](AGENTS.md) for mandatory repo-wide rules.
@@ -62,10 +66,12 @@ The proposed first coding-agent harness is **Claude Code with project subagents*
 
 ## Core documents
 
+- [Master execution plan](docs/plan/atlas-master-execution-plan.md) — canonical dependency-ordered sequence, approval gates and status snapshot.
 - [Working-backwards plan](docs/plan/atlas-working-backwards-plan.md) — locked process, phases, gates and release outcome.
 - [Master execution roadmap](docs/research/atlas-master-execution-roadmap.md) — product/design/research workstreams.
 - [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md) — backend, API, AI, Jev, AIDLC and runtime.
 - [Multi-agent protocol](docs/research/multi-agent-first-principles-protocol.md) — independent research, challenge rounds and end-to-end teardowns.
+- [Agent Systems Lab](docs/research/agent-systems-lab.md) — ECC, Goose, gstack, AI Agency candidates, reverse-engineering protocol and benchmark.
 - [Research index](docs/research/README.md) — evidence and source records.
 
 ## Working principles
