@@ -96,6 +96,30 @@ The canonical status and next milestone are in [README.md](README.md). Before pr
 
 As of 11 October 2026, Atlas remains in research/discovery. PR #14 is open and ready for review on planning/atlas-master-roadmap, not merged. The working-backwards plan locks the process and sequence only; it does not approve the final architecture, MVP, provider purchase, or production implementation. Prototypes are not proof of real persistence, authentication, accessibility, or production readiness.
 
+### Required startup procedure for future agents
+
+Before acting on a new task:
+1. Run `git status --short --branch` and inspect the current branch, recent commits, and uncommitted changes. Do not assume the checkout matches the planning PR or default branch.
+2. Read [Issue #15](https://github.com/yash-phoenix79/atlas/issues/15), [the canonical master execution plan](docs/plan/atlas-master-execution-plan.md), [the working-backwards plan](docs/plan/atlas-working-backwards-plan.md), and the relevant linked plan/skill/security documents. For agent-system evaluation, also read [the Agent Systems Lab](docs/research/agent-systems-lab.md).
+3. Inspect existing implementation, tests, scripts, configuration and relevant git history before suggesting a change. Search for an existing implementation or decision before creating a new one.
+4. Choose the smallest task that is unblocked, state its ID from Issue #15 (or propose a new ID before expanding scope), dependencies, owned files, acceptance criteria and commands/checks.
+5. Do not assume a task is complete because a checkbox, mock screen, plan, generated file or prior assistant message says so. Re-check the current checkout and collect fresh evidence.
+6. If blocked, record the exact missing evidence/decision and a narrow next action in the issue; do not silently skip the gate.
+
+### Repository reality audit deliverable
+
+The first evidence-producing task is the repository reality audit. Create `docs/research/repository-reality-audit.md` after inspecting the actual checkout. It must include:
+- Checkout/branch/commit and audit date; repository areas inspected.
+- App entry points, runtime/framework/dependency versions, environment/configuration expectations (never include secret values).
+- Exact build, lint, test, type-check and CI commands discovered and actually run, with exit status and important output. Clearly mark commands not run and why.
+- A capability inventory for UI, auth, data persistence, user ownership/isolation, capture/ingestion, search, AI, import/export, accessibility, observability and deployment.
+- Per capability: **Implemented / Mocked / Broken / Planned / Unverified**, with file paths and test evidence.
+- Existing tests and coverage gaps; current open PRs/branches and relevant decisions.
+- Security/dependency concerns, assumptions, contradictions, unknowns and recommended next tasks.
+- A concise executive summary and a prioritized list of findings linked to Issue #15.
+
+Do not fabricate results, expose credentials, or modify application behavior while establishing the baseline. If execution is unavailable, record the limitation and continue with source inspection without calling it a runtime verification.
+
 ### Multi-agent protocol
 
 - For important design questions, first request independent, read-only submissions from product research, system reverse engineering, backend architecture, AI architecture and skeptical review roles. Do not show agents each other's submissions until the first round is captured.
