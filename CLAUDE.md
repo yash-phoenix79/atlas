@@ -11,7 +11,7 @@ This file supplements, and never overrides, [AGENTS.md](AGENTS.md).
 5. [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md).
 6. [Multi-agent first-principles protocol](docs/research/multi-agent-first-principles-protocol.md).
 7. [Agent Systems Lab](docs/research/agent-systems-lab.md).
-6. Relevant security, requirements, production-readiness and quality-bar docs before touching sensitive code.
+8. Relevant security, requirements, production-readiness and quality-bar docs before touching sensitive code.
 
 ## What Atlas is and why
 
