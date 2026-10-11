@@ -171,7 +171,7 @@ Security policy and owner-approved decisions take precedence over plans and agen
 ## 8. Current state snapshot — 11 October 2026
 - Atlas is in product/research discovery, not production implementation.
 - UI prototypes and research artifacts exist, but prototypes are not evidence of real persistence, authentication, multi-user isolation, accessibility or production readiness.
-- PR #14 is an open draft planning PR on planning/atlas-master-roadmap; it is not merged. It contains the master roadmap, AI engineering plan and multi-agent protocol.
+- PR #14 is open and ready for review on planning/atlas-master-roadmap; it is not merged. It contains the master roadmap, AI engineering plan, multi-agent protocol and agent onboarding files.
 - This plan locks process and order only. It does not approve architecture, MVP, a provider purchase, or production implementation.
 - No independent multi-agent debate or full system teardown is claimed complete merely because roles/checklists are documented.
 - Next action: repository reality audit, then end-to-end teardowns; do not start broad backend implementation before MVP and architecture gates.
