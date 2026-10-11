@@ -10,7 +10,7 @@ Atlas has two separate decision axes; do not conflate them:
 - **Visual language:** approved as light-first/content-led, as recorded in [the light-first design lock](../decisions/2026-10-11-light-first-design-lock.md).
 - **Primary interaction architecture and MVP scope:** **not yet approved by this gate**. The visual-library, spatial-canvas and research-workbench concepts remain alternatives to evaluate. The owner has not approved this comparison as evidence of user preference or usability.
 
-The visual lock authorizes using the approved mock as a visual reference for future work. It does not by itself select the default workflow, authorize merging PR #12, waive implementation/security/accessibility gates, or turn mock interactions into real product functionality. Until the product owner explicitly approves the architecture and MVP scope, keep work on PR #12 within research/prototype scope. This clarifies any broader wording elsewhere in this document: architecture selection remains open.
+The visual lock authorizes using the approved mock as a visual reference for future work. It does not by itself select the default workflow, authorize merging PR #12, waive implementation/security/accessibility gates, or turn mock interactions into real product functionality. Until the product owner explicitly approves the architecture and MVP scope, keep work on PR #13 within research/prototype scope. This clarifies any broader wording elsewhere in this document: architecture selection remains open.
 
 ## What exists now
 
@@ -129,4 +129,4 @@ Before treating architecture and MVP as locked, obtain explicit owner approval f
 6. Export/portability contract.
 7. MVP journey acceptance criteria.
 
-Until these decisions are explicitly made, continue research and prototype iteration. Do not merge PR #12 on the assumption that architecture validation is complete.
+Until these decisions are explicitly made, continue research and prototype iteration. Do not merge PR #13 on the assumption that architecture validation is complete.
