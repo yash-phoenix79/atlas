@@ -23,6 +23,16 @@ Distinguish these threat classes:
 
 Application authorization can prevent ordinary users from accessing one another's records. It does not automatically prevent a privileged host/database administrator from reading plaintext. Server-side encryption at rest helps protect stolen media/storage but does not stop the running server or privileged administrator from accessing decrypted data. Strong protection from the service operator requires a separate design such as carefully implemented client-side/end-to-end encryption; this complicates search, previews, sharing, and AI. Do not promise it unless designed and tested.
 
+## Security-first engineering program
+
+The detailed security program, tool choices, AI-agent controls, threat register, and verification gates are maintained in:
+
+- [Security-first engineering program](security/security-program.md)
+- [AI and coding-agent security](security/ai-agent-security.md)
+- [Security tooling and verification pipeline](security/security-tooling.md)
+
+These documents extend the requirements below. They are not evidence that controls have already been implemented or passed.
+
 ## Required baseline before inviting friends
 
 ### Identity and authorization
