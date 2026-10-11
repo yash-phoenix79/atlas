@@ -26,6 +26,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [Production engineering resources](research/production-engineering-resources.md): curated standards, tools, AI-agent guidance, and operational references.
 - [UI/UX research plan](research/ui-ux-research-plan.md): UX principles, agent-ready UI skill evaluation, mockup plan, and approval gate.
 - [UI/UX Handbook — Foundations](research/ui-ux-handbook-foundations.md): first-principles models, core interaction/visual/retrieval principles, Atlas design laws, evidence limits, and validation tasks.
+- [UI/UX Deep Dive 01 — Cognition, Attention, and Decision-Making](research/ui-ux-deep-dive-01-cognition-attention.md): visual search, attention, memory, cognitive effort, choice, information scent, and falsifiable Atlas experiments.
 - [Design Engineer Toolkit](research/design-engineer-toolkit.md): curated design-engineering workflow and tool adoption rubric.
 
 ## Engineering and production readiness
