@@ -2,6 +2,10 @@
 
 This directory is the canonical home for product research, competitive teardowns, technical investigations, and experiment results. Research should be understandable and useful without needing to reconstruct the chat that produced it.
 
+## Visual and interaction design
+
+- [Evidence-backed visual and interaction design research](./evidence-backed-visual-and-interaction-design.md) — proposed color directions and semantic tokens, typography/density, screen jobs, motion, accessibility, responsive behavior, prototype validation, decision log, and source register. Production UI remains gated on explicit owner approval.
+
 ## Research principles
 
 1. **Start from user jobs, not a feature checklist.** Investigate what people are trying to do, where current tools help, and where they fail.
