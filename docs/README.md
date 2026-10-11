@@ -36,6 +36,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [UI/UX Deep Dive 08 — User Research, Usability Testing, and Experimentation](research/ui-ux-deep-dive-08-user-research.md): method selection, interviews, task testing, bias mitigation, metrics, and research governance.
 - [UI/UX Deep Dive 09 — Competitive Teardowns and Pattern Reverse Engineering](research/ui-ux-deep-dive-09-competitive-teardowns.md): repeatable competitor task scripts, evidence labels, pattern extraction, and transferability criteria.
 - [UI/UX Deep Dive 10 — Product Experience Strategy, Delight, Motivation, and Ethics](research/ui-ux-deep-dive-10-experience-strategy.md): immersive vs retrieval modes, ethical delight, AI agency, three visual directions, and approval gates.
+- [UI/UX Deep Dive 11 — Product References for Atlas, Including Netflix](research/ui-ux-deep-dive-11-product-references-netflix.md): transferable patterns from leading apps and a dedicated Netflix teardown brief covering visual storytelling, shelves, personalization, personal hubs, responsive discovery, and Atlas-specific cautions.
 - [Design Engineer Toolkit](research/design-engineer-toolkit.md): curated design-engineering workflow and tool adoption rubric.
 
 ## Engineering and production readiness
