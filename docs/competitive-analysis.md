@@ -1,57 +1,39 @@
 # Atlas Competitive Analysis
 
-- **Status:** Framework created; product comparisons not yet completed.
+- **Status:** Initial desk research recorded; hands-on teardowns and user validation remain open.
 - **Last updated:** 2026-10-11
-- **Method:** Use the research evidence standards in [research/README.md](research/README.md) and the [product teardown template](research/product-teardown-template.md).
+- **Canonical evidence dossier:** [Competitor Discovery Dossier](research/competitor-discovery-dossier.md)
+- **Method:** Follow the evidence standards in [research/README.md](research/README.md) and the [product teardown template](research/product-teardown-template.md).
 
-## Products to investigate
+## Initial conclusion
 
-| Product | Why it is in scope | Canonical starting point | Status |
-|---|---|---|---|
-| Jeff | Inspiration for an AI bookshelf and natural-language discovery | https://read.atharvashah.com/ | Planned |
-| Karakeep | Saved-resource management, tagging, search and AI-assisted organization | https://github.com/karakeep-app/karakeep | Planned |
-| Linkwarden | Link preservation, collections, annotations and collaboration | https://github.com/linkwarden/linkwarden | Planned |
-| Readeck | Read-it-later, article archiving, highlights and export | https://readeck.org/ | Planned; verify official source repository from the project's current site |
-| Obsidian | Local Markdown notes, links, knowledge graph and plugin ecosystem | https://obsidian.md/ | Planned |
-| Zotero | Reference management, source metadata, annotations and citation workflows | https://www.zotero.org/ | Planned |
+The category already includes strong tools for bookmark management, archiving, reading/highlighting, research metadata, and AI-assisted retrieval. “Save everything” and “add AI chat” are not sufficient differentiators on their own.
 
-## Comparison table
+Atlas's current differentiation hypothesis is a **personal learning library that connects saved resources to ideas, decisions, skills, and projects**, while preserving source provenance and portable data. This remains a hypothesis, not a validated market gap.
 
-Do not prefill ratings based on reputation or old summaries. Populate each cell from a teardown and cite the evidence.
+## Initial product implications
 
-| Dimension | Jeff | Karakeep | Linkwarden | Readeck | Obsidian | Zotero |
-|---|---|---|---|---|---|---|
-| Capture/import | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Organization | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Reading/annotations | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Keyword/full-text search | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Semantic/AI retrieval | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Source-grounded Q&A | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Knowledge linking | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Export/portability | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Privacy/deployment | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
-| Extensibility/licensing | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+1. Treat reliable capture, user-correctable metadata, discoverability, and export as foundations.
+2. Keep the original URL/file even when extraction fails; communicate partial success honestly.
+3. Use a consistent visual language across books, articles, PDFs, videos, repositories, social posts, and notes.
+4. Keep the core library useful without AI; AI answers should cite inspectable sources and disclose uncertainty.
+5. Integrate with tools such as Obsidian where useful rather than rebuilding every note-taking workflow.
+6. Make privacy, strict user isolation, export, and tested recovery part of product quality—not a future hardening sprint.
+7. Prototype and test the end-to-end journey before choosing a framework or building production UI.
 
-## Synthesis
+## Research status
 
-Complete this section only after collecting evidence:
+| Product | Initial evidence status | Next action |
+|---|---|---|
+| Jeff — A Bookshelf You Can Ask | Public landing URL reachable, but page content was not readable through the inspection method | Manual browser inspection; record actual flows and limitations |
+| Karakeep | First-party docs reviewed; features are primary-source claims, not independently tested | Test capture, search, export, and failure states |
+| Linkwarden | First-party docs reviewed; features are primary-source claims, not independently tested | Test preservation, annotation, collections, export |
+| Raindrop.io | First-party marketing/product page reviewed | Verify plan boundaries and test mixed-resource capture/search |
+| Readwise Reader | First-party docs reviewed | Test mobile/browser capture, reading, highlights, export |
+| Obsidian Web Clipper | First-party docs reviewed | Test templates, capture fidelity, Markdown output, handoff |
+| Zotero | First-party docs reviewed | Test bibliographic capture, snapshots, annotations, export |
+| Readeck | Official site returned 403 to the inspection method; no feature conclusions made | Manual browser inspection and official repository/license verification |
 
-### Patterns worth adopting
+## Decision gate
 
-_To be completed from evidence._
-
-### User problems that remain poorly served
-
-_To be completed from evidence._
-
-### Atlas differentiation hypothesis
-
-_To be formulated and tested after teardowns._
-
-### Build versus integrate
-
-_To be evaluated against current official documentation and actual requirements._
-
-### Decisions and links
-
-_Link each recommendation to supporting teardown(s), requirements, and a decision record._
+Do not finalize the MVP, architecture, or visual direction solely from this desk research. Complete representative workflow tests and validate the differentiation hypothesis with real users. Then update the feature blueprint and requirements, prepare 2–3 visual directions and high-fidelity core screens, and obtain explicit approval before production UI coding.
