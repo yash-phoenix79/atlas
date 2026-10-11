@@ -82,12 +82,13 @@ For production readiness, use the canonical [requirements registry](../engineeri
 - [Evidence-backed visual and interaction design research](./evidence-backed-visual-and-interaction-design.md) — proposed color directions and semantic tokens, typography/density, screen jobs, motion, accessibility, responsive behavior, and a validation plan.
 - [Interaction-model research brief](atlas-interaction-model-research-brief.md) — hypotheses and risks for visual discovery, shared resource identity, spatial boards, graphs, search, reading, AI synthesis, portability, and accessibility.
 - [Screen-to-journey coverage matrix](atlas-screen-journey-coverage-matrix.md) — screen families, priorities, journey coverage, failure/recovery states, prototype acceptance criteria, and open decisions.
-- [Design evaluation and decision gates](atlas-design-evaluation-and-decision-gates.md) — separates heuristic review from automated/manual testing, compares genuinely different design architectures, defines task-based evaluation, and preserves the explicit approval gate.
+- [Design evaluation and decision gates](atlas-design-evaluation-and-decision-gates.md) — separates visual approval from architecture approval, documents prototype gaps and evaluation methods, and preserves the explicit approval gate.
 - [Comparative usability test script](atlas-comparative-usability-test-script.md) — standardized task prompts, observations, scorecard, analysis rules and stop criteria for comparing architectures fairly. Protocol only; no study has been conducted.
 - [Connected multi-screen journey prototype](../mockups/atlas-connected-journey-prototype.html) — clickable HTML concept spanning Home, Library, Search, Collections, Board, Graph, Resource Detail, Research, Inbox, Capture, and Settings. Illustrative local behavior only; not a production app or approved direction.
 - [Architecture comparison lab](../mockups/atlas-architecture-comparison-lab.html) — three genuinely different organizing models (visual discovery, spatial thinking, source-first research) over the same sample resources, with clickable flows and shared evaluation tasks. Illustrative prototype; not tested or approved.
 
-- [Architecture divergence lab](../mockups/atlas-architecture-divergence-lab.html) — three intentionally different product experiences: editorial visual library, full-bleed spatial canvas, and question-led evidence workbench. Conceptual interactions only; not approved and not production functionality.
+- [Architecture divergence lab](../mockups/atlas-architecture-divergence-lab.html) — editorial visual library, full-bleed spatial canvas, and question-led evidence workbench. Concept interactions only; the workbench contains fabricated sample passages. Not validated or production functionality.
+- [Architecture lab source audit](../../scripts/audit-atlas-architecture-lab.mjs) — source-level guardrails, not a replacement for browser, accessibility, responsive or user testing.
 
 ## Complete UI/UX review build
 
