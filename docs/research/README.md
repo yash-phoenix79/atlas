@@ -43,6 +43,10 @@ Do not call a claim verified merely because several articles repeat the same ori
 
 Citations should be near the claim they support. Prefer specific docs, files, releases, issues, or lines over generic homepages.
 
+## Atlas execution plan
+
+- [Atlas Master Execution Roadmap](atlas-master-execution-roadmap.md) — granular tracks for toolchain evaluation, user-job research, product/repository teardowns, safe reverse-engineering agent skills, UI experiments, accessibility/usability validation, MVP approval, backend research, AI-layer evaluation, and production vertical slices. Planning artifact only; it does not mean those tracks have been completed.
+
 ## Canonical research guides
 
 - [Research methodology](research-methodology.md): repeatable process for framing questions, evaluating alternatives, checking freshness, finding counterevidence, reproducing claims and recording decisions.
