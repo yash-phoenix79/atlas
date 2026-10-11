@@ -19,7 +19,7 @@ The objective is a complete, reliable end-to-end user journey, not disconnected 
 
 ## Current state
 
-As of 11 October 2026, the project is in research/discovery. UI prototypes and research documents exist; prototypes are not proof of real persistence, authentication, multi-user isolation, accessibility or production readiness. PR #14 is an open draft on planning/atlas-master-roadmap and is not merged. The working-backwards plan locks the process only. Final MVP, backend architecture, provider and production implementation remain approval-gated.
+As of 11 October 2026, the project is in research/discovery. UI prototypes and research documents exist; prototypes are not proof of real persistence, authentication, multi-user isolation, accessibility or production readiness. PR #14 is open and ready for review on planning/atlas-master-roadmap and is not merged. The working-backwards plan locks the process only. Final MVP, backend architecture, provider and production implementation remain approval-gated.
 
 **Immediate next task:** audit the actual repository, scripts, CI, tests, current behavior and open PRs; then perform end-to-end teardowns of Karakeep, Linkwarden, Readeck and Obsidian. Do not skip directly to broad backend implementation.
 
