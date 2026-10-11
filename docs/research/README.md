@@ -88,3 +88,7 @@ For production readiness, use the canonical [requirements registry](../engineeri
 - [Architecture comparison lab](../mockups/atlas-architecture-comparison-lab.html) — three genuinely different organizing models (visual discovery, spatial thinking, source-first research) over the same sample resources, with clickable flows and shared evaluation tasks. Illustrative prototype; not tested or approved.
 
 - [Architecture divergence lab](../mockups/atlas-architecture-divergence-lab.html) — three intentionally different product experiences: editorial visual library, full-bleed spatial canvas, and question-led evidence workbench. Conceptual interactions only; not approved and not production functionality.
+
+## Complete UI/UX review build
+
+- [Complete UI/UX review prototype](../mockups/atlas-complete-ui-review.html) — connected review surface for the core Atlas screens: home, library, search, collections, resource detail/reader, boards, graph, research, insights, inbox, capture, integrations, settings, onboarding, import status, empty/error recovery, bulk actions, and export. Use its **All screens** index to inspect each route. This is a review prototype, not production UI; see the screen inventory for logical routes and states not individually rendered.
