@@ -9,8 +9,8 @@
 - Screen-to-journey coverage matrix: authored.
 - Interaction-model research brief: authored.
 - Connected multi-screen HTML prototype: authored.
-- Design direction approval: **not granted**.
-- Production UI authorization: **not granted**.
+- Design direction approval: **granted for the light-first mock direction**; see [design lock decision](../decisions/2026-10-11-light-first-design-lock.md).
+- Production UI authorization: **granted for implementation aligned with the approved mock**, while first-release scope, journey acceptance criteria, and engineering/security gates remain mandatory.
 - Actual semantic search, backend persistence, authentication, import integrations and real AI: **not implemented by the prototype**.
 
 ## Evaluation layers (keep claims separate)
