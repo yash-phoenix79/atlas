@@ -11,7 +11,9 @@ Atlas should make it easy to discover, capture, organize, retrieve, connect, and
 
 ## Initial operating model
 
-Atlas is initially a **single-user, personal-first tool** for its owner—not a multi-user SaaS or startup. Prioritize owner-controlled data, a custom interface, reliable capture, portability, backups, and low maintenance. Prefer local-first or self-hosted deployment where practical, and avoid external services unless they deliver clear value and their privacy/cost trade-offs are explicit.
+Atlas is **personal-first and multi-user-ready**: it begins as the owner's personal library, with a simple path to invite a small number of friends. Each user must have an independent private library, notes, files, search history, and settings. Design user-scoped data boundaries and authorization from the beginning, but avoid enterprise SaaS complexity, teams, billing, roles, and collaboration features until they are needed. Prioritize owner-controlled data, a custom interface, reliable capture, portability, backups, simple onboarding, and low maintenance. Prefer local-first or self-hosted deployment where practical, and make external services and their privacy/cost trade-offs explicit.
+
+Friend onboarding should be short: receive an invite, create an account, land in an empty-but-helpful library, and immediately capture a first resource. Avoid a lengthy setup wizard. Sharing must be explicit and opt-in; inviting someone to Atlas must never grant them access to the inviter's library.
 
 “Capture from any app” means supporting common pathways (share sheet, paste URL, file upload, browser capture, bulk import, and selected integrations) and gracefully saving originals when full extraction is blocked. It does not mean promising full content access from every platform.
 
