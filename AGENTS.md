@@ -86,3 +86,25 @@ A task is complete only when:
 ## Communication style
 
 Be concise but specific. Show the evidence and trade-offs behind material recommendations. Ask a question only when an ambiguity blocks safe progress; otherwise make a narrow, reversible assumption and state it.
+
+
+## Atlas execution state and multi-agent workflow
+
+The canonical status and next milestone are in [README.md](README.md). Before proposing architecture or implementation, read the [locked working-backwards plan](docs/plan/atlas-working-backwards-plan.md), [master roadmap](docs/research/atlas-master-execution-roadmap.md), [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md), and [multi-agent protocol](docs/research/multi-agent-first-principles-protocol.md).
+
+### Current phase
+
+As of 11 October 2026, Atlas remains in research/discovery. PR #14 is an open draft planning PR on planning/atlas-master-roadmap, not merged. The working-backwards plan locks the process and sequence only; it does not approve the final architecture, MVP, provider purchase, or production implementation. Prototypes are not proof of real persistence, authentication, accessibility, or production readiness.
+
+### Multi-agent protocol
+
+- For important design questions, first request independent, read-only submissions from product research, system reverse engineering, backend architecture, AI architecture and skeptical review roles. Do not show agents each other's submissions until the first round is captured.
+- Require an evidence-backed challenge round and a synthesis that preserves dissent, uncertainties, costs and counterarguments. Do not claim independent agent consensus if the work was performed by one model/session.
+- Use coding agents for bounded tasks with explicit contracts, file ownership and acceptance tests. Isolate parallel implementers by branch/worktree; no concurrent edits to the same files.
+- Evaluate Claude Code subagents as the proposed first harness pilot and AWS Labs AI-DLC as a workflow layer; neither is assumed installed or approved until source, permissions, cost and behavior are reviewed.
+- Skills and MCP integrations are executable supply-chain inputs. Review origin, license, permissions, network/data access, dependencies and maintenance before installing or running them.
+- Human approval is mandatory for architecture/MVP decisions, merges, production deploys, billing changes, destructive migrations and irreversible external actions.
+
+### Next action
+
+Perform a repository reality audit, then end-to-end teardowns of selected existing systems. Do not start broad production backend implementation until requirements and architecture pass their approval gates. Keep README and the plan snapshot updated as evidence changes.
