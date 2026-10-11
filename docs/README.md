@@ -25,6 +25,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [Source quality rubric](research/source-quality-rubric.md): source tiers, confidence, freshness, and evidence standards.
 - [Production engineering resources](research/production-engineering-resources.md): curated standards, tools, AI-agent guidance, and operational references.
 - [UI/UX research plan](research/ui-ux-research-plan.md): UX principles, agent-ready UI skill evaluation, mockup plan, and approval gate.
+- [Design synthesis: spatial library and connected knowledge](research/design-synthesis-spatial-library-connected-knowledge.md): owner taste signals, Heptabase/NotebookLM patterns, proposed resource/board/relationship model, three visual directions, and validation plan. Proposal only; no visual direction approved yet.
 - [UI/UX Handbook — Foundations](research/ui-ux-handbook-foundations.md): first-principles models, core interaction/visual/retrieval principles, Atlas design laws, evidence limits, and validation tasks.
 - [UI/UX Deep Dive 01 — Cognition, Attention, and Decision-Making](research/ui-ux-deep-dive-01-cognition-attention.md): visual search, attention, memory, cognitive effort, choice, information scent, and falsifiable Atlas experiments.
 - [UI/UX Deep Dive 02 — Interaction Design, Feedback, and Error Recovery](research/ui-ux-deep-dive-02-interaction-design.md): affordances, interaction contracts, state transitions, error recovery, reversibility, microinteractions, and accessible motion.
