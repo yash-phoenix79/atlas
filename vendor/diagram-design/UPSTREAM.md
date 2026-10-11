@@ -6,6 +6,7 @@
 - License: MIT. The upstream copyright notice is preserved in `LICENSE`.
 - What we use: semantic diagram selection, editorial SVG conventions, explicit cardinality, orthogonal connectors, restrained focal accents, and clear source/unknown labeling.
 - Pin policy: this is a snapshot reference, not a floating dependency. Review changes before updating the SHA.
+- Git lock: `.agents/skills/diagram-design` is a git submodule at the exact commit above; root `.gitmodules` records the upstream URL. Selected references are copied under `vendor/diagram-design/references/` for in-repo browsing.
 - Atlas adaptation: the diagrams use Atlas-specific semantics. We are not treating any proposed service, entity, API, or data-store choice as deployed fact.
 
 ## Style decision
@@ -19,4 +20,4 @@ The previous Atlas prototypes overused a green accent without an approved brand 
 - `skills/diagram-design/references/type-flowchart.md`
 - `skills/diagram-design/references/type-sequence.md`
 
-Selected reference snapshots are included under `references/` for reproducible use and remain subject to the upstream MIT license. The complete upstream skill has not been vendored in full.
+Selected reference snapshots are included under `references/` for reproducible use and remain subject to the upstream MIT license. The full skill is available at the pinned submodule path when it is initialized; this reference note does not replace the upstream skill.
