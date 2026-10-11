@@ -15,6 +15,8 @@ Atlas is **personal-first and multi-user-ready**: it begins as the owner's perso
 
 Friend onboarding should be short: receive an invite, create an account, land in an empty-but-helpful library, and immediately capture a first resource. Avoid a lengthy setup wizard. Sharing must be explicit and opt-in; inviting someone to Atlas must never grant them access to the inviter's library.
 
+**Trust principle:** make privacy claims specific and verifiable. Enforce server-side user isolation, minimize collection, disclose external processing, support export/deletion, protect backups/secrets, and test cross-user access. Be honest that the service operator may be able to access plaintext unless a properly designed client-side encryption model prevents it.
+
 “Capture from any app” means supporting common pathways (share sheet, paste URL, file upload, browser capture, bulk import, and selected integrations) and gracefully saving originals when full extraction is blocked. It does not mean promising full content access from every platform.
 
 ## Problem hypothesis
