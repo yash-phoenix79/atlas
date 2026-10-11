@@ -56,3 +56,5 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [Architecture](architecture.md): proposed design, alternatives, trade-offs, and risks.
 
 Avoid treating planned controls or candidate tools as implemented or verified until they have actually been tested.
+
+- [Capture and integration strategy](research/capture-and-integration-strategy.md): universal capture entry points, source adapter matrix, Obsidian interoperability, portable ownership, security boundaries, and acceptance tests.
