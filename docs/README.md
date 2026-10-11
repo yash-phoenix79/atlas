@@ -29,6 +29,13 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [UI/UX Deep Dive 01 — Cognition, Attention, and Decision-Making](research/ui-ux-deep-dive-01-cognition-attention.md): visual search, attention, memory, cognitive effort, choice, information scent, and falsifiable Atlas experiments.
 - [UI/UX Deep Dive 02 — Interaction Design, Feedback, and Error Recovery](research/ui-ux-deep-dive-02-interaction-design.md): affordances, interaction contracts, state transitions, error recovery, reversibility, microinteractions, and accessible motion.
 - [UI/UX Deep Dive 03 — Visual Perception, Hierarchy, Typography, and Composition](research/ui-ux-deep-dive-03-visual-design.md): Gestalt grouping, visual hierarchy, type, color, density, resource previews, and experiments for Atlas's visual language.
+- [UI/UX Deep Dive 04 — Information Architecture, Search, and Retrieval](research/ui-ux-deep-dive-04-information-architecture-search.md): collections, tags, metadata, indexing status, filters, ranking, result design, and retrieval experiments.
+- [UI/UX Deep Dive 05 — Accessibility, Responsive Design, and Inclusive Interaction](research/ui-ux-deep-dive-05-accessibility-responsive.md): WCAG 2.2, keyboard, screen readers, contrast, reflow, touch, reduced motion, and proposed tests.
+- [UI/UX Deep Dive 06 — Motion, 3D Cards, and Immersive Interaction](research/ui-ux-deep-dive-06-motion-immersive-ui.md): card tilt/parallax, motion hierarchy, performance, comfort, and a comparative prototype experiment.
+- [UI/UX Deep Dive 07 — Design Systems, Components, and Frontend Verification](research/ui-ux-deep-dive-07-design-systems.md): semantic tokens, component contracts, resource card architecture, state matrices, and testing layers.
+- [UI/UX Deep Dive 08 — User Research, Usability Testing, and Experimentation](research/ui-ux-deep-dive-08-user-research.md): method selection, interviews, task testing, bias mitigation, metrics, and research governance.
+- [UI/UX Deep Dive 09 — Competitive Teardowns and Pattern Reverse Engineering](research/ui-ux-deep-dive-09-competitive-teardowns.md): repeatable competitor task scripts, evidence labels, pattern extraction, and transferability criteria.
+- [UI/UX Deep Dive 10 — Product Experience Strategy, Delight, Motivation, and Ethics](research/ui-ux-deep-dive-10-experience-strategy.md): immersive vs retrieval modes, ethical delight, AI agency, three visual directions, and approval gates.
 - [Design Engineer Toolkit](research/design-engineer-toolkit.md): curated design-engineering workflow and tool adoption rubric.
 
 ## Engineering and production readiness
