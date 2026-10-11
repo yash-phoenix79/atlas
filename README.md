@@ -25,7 +25,7 @@ Bookmarks help us save things, but they do not reliably help us rediscover, conn
 **Phase:** research and discovery. **Production implementation is not yet authorized.**
 
 - UI prototypes and research/planning documents exist. Prototypes are hypotheses, not evidence of production behavior, persistence, authentication, accessibility or user validation.
-- [PR #14](https://github.com/yash-phoenix79/atlas/pull/14) is the open draft containing the master roadmap, AI engineering plan and multi-agent protocol. It is not merged.
+- [PR #14](https://github.com/yash-phoenix79/atlas/pull/14) is the open PR, now ready for review, containing the master roadmap, AI engineering plan, multi-agent protocol and agent onboarding files. It is not merged.
 - The working-backwards plan locks our process and sequence, not the final backend architecture, MVP scope or model/provider choice.
 - No complete end-to-end system teardown or independent multi-agent debate is claimed complete until its evidence is committed and reviewed.
 
