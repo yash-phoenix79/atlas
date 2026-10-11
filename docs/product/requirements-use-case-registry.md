@@ -43,6 +43,9 @@ Atlas is a beautiful, owner-controlled personal learning library that helps peop
 | ATL-025 | Original | Reliability and operations | P0 before friends | Define SLOs, telemetry, retries/idempotency, RPO/RTO, incident and rollback steps | Accepted |
 | ATL-026 | Original | Accessible, responsive, recoverable interactions | P0 | Keyboard/focus, contrast, zoom, mobile, loading/error/duplicate/partial-success tests | Accepted |
 | ATL-027 | New hypothesis | Validate differentiation and user jobs before expanding scope | P0 discovery gate | Hands-on teardowns and 5–8 user workflow interviews/task tests; record evidence and counterevidence | In research |
+| ATL-028 | Owner feedback, Round 3 | Spatial whiteboards with movable cards, groups, connections, and nested topic exploration | P1 prototype; priority re-evaluate after design tests | Canonical resources can be placed on multiple boards without duplication; board state persists; move/connect/group/zoom/fit/undo/navigation work; mobile fallback and keyboard/accessibility behavior specified | Proposed |
+| ATL-029 | Owner feedback, Round 3 | Cross-resource knowledge graph connecting resources, concepts, and ideas | P1 prototype | Filterable graph; edge types and origins are visible; graph nodes navigate to canonical resources; large/no-connection states and performance limits tested | Proposed |
+| ATL-030 | Owner feedback, Round 3 | AI-suggested relationships across resources with inspectable evidence, inspired by NotebookLM source-grounded synthesis | P1 after reliable extraction/retrieval | Every evidence-backed suggestion links to supporting source passages where available; explicit/user-created and AI-suggested edges are visually distinct; accept/edit/reject/dismiss controls; abstain or disclose weak evidence; prompt-injection and tenant-isolation tests pass | Proposed |
 
 ## Phase gates
 
