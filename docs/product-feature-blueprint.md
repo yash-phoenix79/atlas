@@ -16,11 +16,25 @@ The application should remain useful as a straightforward library even when AI i
 
 ## Scope and ownership principles
 
-- **Single-user v1:** no teams, sharing, billing, roles, or multi-tenant infrastructure unless a concrete requirement emerges.
+- **Personal-first, friend-ready:** optimize the initial product for one person's daily use while implementing user identity, authorization, and user-scoped data boundaries correctly from the start. Support simple invite-only onboarding for friends when the deployment is ready.
+- **Private by default:** each user owns a separate library, notes, files, search history, and settings. No cross-user access by default; sharing a resource or collection is a later explicit opt-in capability.
+- **Simple onboarding:** invite → sign up/sign in → land in library → capture first resource. Keep optional imports and preferences skippable; do not force a lengthy wizard.
+- **No premature SaaS:** no teams, billing, complex role systems, enterprise admin, or collaboration suite in the initial release.
 - **Data ownership:** define canonical storage, export, backup/restore, deletion, and external AI/provider boundaries before production implementation.
 - **Capture honesty:** a shareable URL should be saveable even if platform content cannot be extracted. Distinguish saved link, metadata extracted, content extracted, and fully processed states.
 - **Low maintenance:** prefer one deployable application and proven dependencies. Do not add distributed services, a dedicated vector database, or an agent framework without measured need.
 - **Mockup gate:** no production application code until the owner reviews and explicitly approves the main UI direction, core flow, and initial scope.
+
+## Friend onboarding and multi-user requirements
+
+- Invite-only access for the initial shared deployment; do not make the instance publicly open by default.
+- Use a proven authentication approach rather than custom password handling where possible.
+- Enforce authorization on the server for every resource, collection, note, file, search result, and background job; hiding another user's data in the UI is not sufficient.
+- Associate every user-owned record and uploaded file with an owner identifier. Scope queries and background processing by that identity.
+- Add tests proving User A cannot read, update, delete, search, export, or infer User B's private data.
+- Keep sharing disabled until an explicit sharing model is designed and tested.
+- Provide account deletion/export and a clear backup/restore strategy before inviting friends to rely on the app.
+- Avoid asking new users to configure AI providers, storage, or advanced settings before they can save their first link.
 
 ## Product requirements by journey
 
