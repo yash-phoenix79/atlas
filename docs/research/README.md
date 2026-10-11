@@ -95,5 +95,5 @@ For production readiness, use the canonical [requirements registry](../engineeri
 
 ## Diagram standards and Atlas diagrams
 
-- [Diagram Design pinned reference](../..//vendor/diagram-design/UPSTREAM.md) — upstream commit pin, MIT license, selected vendored design references, and Atlas-specific diagram rules.
+- [Diagram Design pinned reference](../../vendor/diagram-design/UPSTREAM.md) — upstream commit pin, MIT license, selected vendored design references, and Atlas-specific diagram rules.
 - [Atlas diagram index](../diagrams/README.md) — core library domain, research evidence model, capture state flow, proposed system boundaries, and synthesis sequence. Each diagram includes light/dark theme support and labels proposed architecture explicitly.
