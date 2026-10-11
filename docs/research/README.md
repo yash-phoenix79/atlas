@@ -50,6 +50,7 @@ Citations should be near the claim they support. Prefer specific docs, files, re
 - [Production engineering resources](production-engineering-resources.md): curated SRE, DORA, NIST, OWASP, OpenSSF, SLSA, OpenTelemetry and tool references, with applicability notes.
 - [Research plan](research-plan.md): investigation sequence.
 - [Product teardown template](product-teardown-template.md): reusable format for product analysis.
+- [Competitor discovery dossier](competitor-discovery-dossier.md): first-pass competitor landscape, evidence limitations, differentiation hypotheses, MVP implications, and UI/UX principles.
 
 ## Research document conventions
 
