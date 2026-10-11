@@ -19,4 +19,4 @@ The previous Atlas prototypes overused a green accent without an approved brand 
 - `skills/diagram-design/references/type-flowchart.md`
 - `skills/diagram-design/references/type-sequence.md`
 
-The following reference snapshots are included in this repository for reproducible use and remain subject to the upstream MIT license.
+Selected reference snapshots are included under `references/` for reproducible use and remain subject to the upstream MIT license. The complete upstream skill has not been vendored in full.
