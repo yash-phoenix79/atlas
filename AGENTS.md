@@ -2,6 +2,12 @@
 
 These instructions apply to AI coding and research agents working in Atlas.
 
+## Governing quality standard
+
+**The Atlas Dual Quality Bar is mandatory for all work:** [docs/governance/dual-quality-bar.md](docs/governance/dual-quality-bar.md). Build a product people love using, on engineering they can trust. Neither is optional.
+
+Product acceptance and engineering acceptance are independent gates. A strong result in one does not compensate for failure in the other. Apply the standard proportionately to task risk; do not lower it silently to meet a deadline. If evidence is unavailable, report the item as unverified rather than inferring success.
+
 ## Mission
 
 Help build a high-quality personal AI bookshelf through evidence-led research, deliberate product decisions, and tested vertical slices. Do not optimize for lines of code or number of agents.
@@ -9,11 +15,22 @@ Help build a high-quality personal AI bookshelf through evidence-led research, d
 ## Before acting
 
 1. Read this file and the root README.
-2. Inspect the current repository state, relevant documentation, branches, and existing decisions before proposing changes.
-3. Identify the task's expected outcome and acceptance criteria. If missing, propose them in the plan rather than silently inventing broad scope.
-4. For current product/library/framework facts, check primary documentation and record links and access dates when making research notes.
-5. Clearly separate verified facts, source-reported claims, observations, assumptions, and recommendations.
-6. For production-readiness work, consult the [requirements registry](docs/engineering/requirements-registry.md) and [production readiness operating model](docs/engineering/production-readiness.md). Link changes to requirement IDs when relevant.
+2. Read the [Dual Quality Bar](docs/governance/dual-quality-bar.md) and relevant product, engineering, security, and architecture documents.
+3. Inspect the current repository state, relevant documentation, branches, and existing decisions before proposing changes.
+4. Identify the task's expected outcome and acceptance criteria. If missing, propose them in the plan rather than silently inventing broad scope.
+5. For current product/library/framework facts, check primary documentation and record links and access dates when making research notes.
+6. Clearly separate verified facts, source-reported claims, observations, assumptions, and recommendations.
+7. For production-readiness work, consult the [requirements registry](docs/engineering/requirements-registry.md) and [production readiness operating model](docs/engineering/production-readiness.md). Link changes to requirement IDs when relevant.
+
+## Product quality
+
+- State the user, context, problem, intended outcome, and evidence for material product changes.
+- Define primary and important failure/empty/loading/partial-success/retry journeys, not only the happy path.
+- Preserve a calm, coherent UX: use progressive disclosure and contextual actions; do not expose every capability as a permanent control or navigation item.
+- Include accessibility, responsive behavior, user control, privacy clarity, and recovery in applicable acceptance criteria.
+- Do not add features solely because they are technically possible or fashionable. Explain value, complexity, dependencies, and what should be deferred or removed.
+- Evaluate success through task completion and meaningful user outcomes, not vanity metrics.
+- AI must be appropriately grounded and transparent; gamification must be optional and non-manipulative.
 
 ## Research quality
 
@@ -59,10 +76,12 @@ Help build a high-quality personal AI bookshelf through evidence-led research, d
 
 A task is complete only when:
 - The requested outcome and acceptance criteria are addressed.
+- Applicable product and engineering acceptance criteria both pass.
 - The diff has been reviewed.
 - Relevant checks are run where possible, and actual results are reported.
 - Documentation is updated where necessary.
 - Remaining limitations, assumptions, and follow-up work are explicit.
+- The canonical requirement status reflects evidence rather than intent.
 
 ## Communication style
 
