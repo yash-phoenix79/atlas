@@ -64,7 +64,7 @@ v+='<div class="shelves"><div class="shelf lilac"><span class="chip">PICK UP WHE
 v+='<div class="heading-row"><div><h2>Recently added</h2><p class="sub">Good things you saved, ready when you are.</p></div><button onclick="go(\'library\')">View library →</button></div>'+resourceCards(resources.slice(0,4));
 v+='<div class="grid two" style="margin-top:22px">'+card("Continue thinking",'<div class="list-row"><div class="mini-cover" style="background:var(--peach)">⌘</div><div class="grow"><strong>Agent Experience Replay</strong><p>Board · 6 cards · Edited yesterday</p></div><button onclick="go(\'boards\')">Open</button></div>')+card("A gentle nudge",'<div class="shelf mint" style="min-height:100px"><strong>Connect two ideas</strong><span>How do agent workflows relate to your backend notes?</span><button style="align-self:start" onclick="go(\'graph\')">Explore connections</button></div>')+'</div>';
 }else if(current==="library"||current==="search"){
-v=heading(current==="search"?"RETRIEVE BY MEANING":"YOUR PERSONAL COLLECTION","'+(current==="search"?"Find the thread.":"Everything you saved.")+'","Search titles, notes, and topics. Organize when you need to—not before.",'<button class="primary" onclick="go(\'inbox\')">＋ Add resource</button>');
+v=heading(current==="search"?"RETRIEVE BY MEANING":"YOUR PERSONAL COLLECTION",current==="search"?"Find the thread.":"Everything you saved.","Search titles, notes, and topics. Organize when you need to—not before.");
 v+='<input id="pageSearch" placeholder="Try “that article about consistency” or “AI agents”" value="'+query.replace(/"/g,'&quot;')+'" oninput="query=this.value;renderResults()" />';
 v+=filterBar()+'<div id="results">'+resourceCards(resources)+'</div>';
 }else if(current==="collections"){
