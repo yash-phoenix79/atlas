@@ -11,7 +11,7 @@
 | Jeff | Inspiration for an AI bookshelf and natural-language discovery | https://read.atharvashah.com/ | Planned |
 | Karakeep | Saved-resource management, tagging, search and AI-assisted organization | https://github.com/karakeep-app/karakeep | Planned |
 | Linkwarden | Link preservation, collections, annotations and collaboration | https://github.com/linkwarden/linkwarden | Planned |
-| Readeck | Read-it-later, article archiving, highlights and export | https://github.com/raindropio/readeck | Planned; verify canonical repository URL before research |
+| Readeck | Read-it-later, article archiving, highlights and export | https://readeck.org/ | Planned; verify official source repository from the project's current site |
 | Obsidian | Local Markdown notes, links, knowledge graph and plugin ecosystem | https://obsidian.md/ | Planned |
 | Zotero | Reference management, source metadata, annotations and citation workflows | https://www.zotero.org/ | Planned |
 
