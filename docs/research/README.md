@@ -92,3 +92,8 @@ For production readiness, use the canonical [requirements registry](../engineeri
 ## Complete UI/UX review build
 
 - [Complete UI/UX review prototype](../mockups/atlas-complete-ui-review.html) — connected review surface for the core Atlas screens: home, library, search, collections, resource detail/reader, boards, graph, research, insights, inbox, capture, integrations, settings, onboarding, import status, empty/error recovery, bulk actions, and export. Use its **All screens** index to inspect each route. This is a review prototype, not production UI; see the screen inventory for logical routes and states not individually rendered.
+
+## Diagram standards and Atlas diagrams
+
+- [Diagram Design pinned reference](../..//vendor/diagram-design/UPSTREAM.md) — upstream commit pin, MIT license, selected vendored design references, and Atlas-specific diagram rules.
+- [Atlas diagram index](../diagrams/README.md) — core library domain, research evidence model, capture state flow, proposed system boundaries, and synthesis sequence. Each diagram includes light/dark theme support and labels proposed architecture explicitly.
