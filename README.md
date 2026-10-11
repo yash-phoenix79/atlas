@@ -48,6 +48,18 @@ See [the locked working-backwards plan](docs/plan/atlas-working-backwards-plan.m
 4. Read the [master execution roadmap](docs/research/atlas-master-execution-roadmap.md), [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md), and [multi-agent protocol](docs/research/multi-agent-first-principles-protocol.md).
 5. Inspect the current branch, open PRs, code and actual test state before acting. Update documentation with evidence; do not infer that planned tasks are complete.
 
+## Multi-agent setup
+
+The proposed first coding-agent harness is **Claude Code with project subagents**, with **AWS Labs AI-DLC Workflows** evaluated as the lifecycle layer. This is a pilot choice, not a claim that either is installed or that all workflows are approved.
+
+- Project agent roles live in [.claude/agents/](.claude/agents/): product research, system teardown, backend architecture, AI architecture and skeptical review.
+- Reusable procedures live in [.claude/skills/](.claude/skills/): system teardown, first-principles architecture, AI evaluation, security review, independent verification and challenge review.
+- Before using external skills/MCPs or an installer, review source, license, permissions, network/data access and maintenance.
+- Agents first research independently, then challenge proposals, then synthesize evidence. Use isolated branches/worktrees for parallel implementation; never have agents edit the same files concurrently.
+- A real separate agent run and its evidence must be recorded before claiming multi-agent consensus.
+- If another harness is selected, preserve the same protocol and adapt skill placement/configuration to its supported Agent Skills format.
+
+
 ## Core documents
 
 - [Working-backwards plan](docs/plan/atlas-working-backwards-plan.md) — locked process, phases, gates and release outcome.
