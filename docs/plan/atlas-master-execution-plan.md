@@ -82,3 +82,32 @@ Use [the Agent Systems Lab](../research/agent-systems-lab.md) for the candidate 
 - Planning docs and agent role/skill files exist on the branch.
 - The repository runtime baseline, complete system teardowns, independent multi-agent runs, candidate benchmarks, user studies, MVP approval, production architecture and release readiness are not claimed complete.
 - The next execution step is Stage 0 reconciliation followed by the repository reality audit. Do not jump to broad production implementation.
+
+## Planning closeout and freeze — 11 October 2026
+
+**Intent:** finish the planning layer today, then stop expanding documents and execute the dependency-ordered backlog. “Planning closed” means the next action, owner, artifact, acceptance gate and approval boundary are unambiguous; it does **not** mean the audit, research, implementation or release work is complete.
+
+### Today's closeout checklist
+
+- [ ] **Consistency pass:** reconcile README, AGENTS.md, CLAUDE.md, working-backwards plan, master roadmap, AI engineering plan, requirements registry, security guidance, production-readiness guidance and this plan. Resolve contradictions in the source documents; record genuine product/architecture unknowns as decisions, not guesses.
+- [ ] **Requirement traceability:** map each accepted user job and product principle to requirement IDs, user journeys, acceptance criteria, evaluation evidence and a phase. Keep the visual bookshelf/library, flexible whiteboard, clustered knowledge graph, focused reader/research workspace, contextual AI, optional learning/gamification and portability in the requirements inventory; keep the UX uncluttered through progressive disclosure.
+- [ ] **Execution-ready backlog:** every workstream has priority, dependency, owner/agent role, artifact path, acceptance criteria, verification method, status, blocker and exit gate. One issue remains the task tracker; do not create duplicate issue lists for the same work.
+- [ ] **Research protocols:** confirm the repository-audit template, competitor teardown template, agent-system reverse-engineering template, benchmark scorecard and independent challenge/review process are linked from the execution backlog.
+- [ ] **Agent/tooling decision boundary:** record candidate systems as unapproved until source/license/permissions/data-flow review and a controlled benchmark exist. Resolve the exact AI Agency repository with the owner before evaluating that candidate. Do not install the full candidate list.
+- [ ] **Decision gates:** make explicit that MVP scope, architecture ADRs, paid providers, privileged installs, production implementation, merge, destructive operations and deployment require the appropriate owner approval.
+- [ ] **Final freeze review:** verify links, task statuses, branch/PR/issue references, and that no document implies work is verified without evidence. Publish one closeout summary and identify the first executable task.
+
+### Freeze rules after closeout
+
+1. Do not add another planning document unless it answers a distinct decision or is a required evidence artifact.
+2. Put durable methods and approved decisions in canonical docs; put tasks, blockers, evidence links and status in Issue #15.
+3. Execute in dependency order: repository reality audit → existing-system teardowns and agent-system baseline/benchmark (parallel only where independent) → owner-approved requirements/MVP → architecture decisions → AI proof → approved vertical slice → product validation → production readiness.
+4. Parallelize only independent tasks with separate file ownership. Collect independent first submissions before challenge/review; do not simulate separate agents in one session.
+5. If a decision is blocked on owner input, record the options, evidence, trade-offs and exact question, then continue other unblocked work. Never silently decide for the owner.
+6. Keep PR #14 open for review; do not merge it without explicit authorization. Keep Issue #15 open because it tracks the execution work.
+
+### What “closed today” means
+
+- **Can be closed today:** planning consistency, traceability, ownership/acceptance contracts, linked templates, dependency ordering, explicit approvals, and a frozen execution backlog—provided each checklist item is actually checked against the repository.
+- **Cannot honestly be marked closed merely by planning:** runtime audit, competitor teardowns, real independent agent runs, benchmarks, user validation, approved MVP/architecture, implemented features, security/restore drills, or production release. Each needs its own evidence and/or owner approval.
+- **First task after freeze:** complete and commit `docs/research/repository-reality-audit.md` with real repository inspection and actual safe baseline command results. Do not start broad implementation before this gate.
