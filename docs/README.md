@@ -5,6 +5,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Project governance
 
 - [Project governance and repository standards](project-governance.md): target open-source project contract, contributor workflow, status vocabulary, and friend-onboarding release gate.
+- [Dual Quality Bar](governance/dual-quality-bar.md): mandatory product and engineering excellence standard, agent working requirements, definition of done, and release-blocking risk policy.
 - [Decisions](decisions/): dated product and architecture decisions, including the [privacy/trust baseline](decisions/2026-10-11-privacy-trust-baseline.md), [open-source project and design tooling baseline](decisions/2026-10-11-open-source-project-baseline.md), [security-first decision](decisions/2026-10-11-security-first.md), and [production-readiness system decision](decisions/2026-10-11-production-readiness-system.md).
 
 ## Product
@@ -13,12 +14,15 @@ The project is in discovery. Add documents as findings and decisions become conc
 - [Product feature blueprint](product-feature-blueprint.md): proposed feature map, prioritization hypothesis, screen inventory, and pre-code mockup approval gate.
 - [Requirements](requirements.md): MVP scope and observable acceptance criteria.
 - [Competitive analysis](competitive-analysis.md): cross-product comparison with sources and confidence.
+- [Product requirements and use-case registry](product/requirements-use-case-registry.md): canonical product feature requirements, stable IDs, priorities, acceptance criteria, status, and release gates.
 
 ## Research and design
 
 - [Research index and plan](research/README.md): sourced research, app teardowns, experiments, and observations.
 - [Competitor discovery dossier](research/competitor-discovery-dossier.md): initial landscape review, differentiation hypotheses, MVP implications, and UI/UX principles.
-- [Research methodology](research/research-methodology.md): repeatable source-first workflow for technical and product research.
+- [AI workflow research plan](research/ai-workflow-research-plan.md): task-specific AI approaches, evaluation, and security boundaries.
+- [Gamification and learning-loop research plan](research/gamification-learning-loop-plan.md): evidence and experiments for optional, outcome-focused learning mechanics.
+- [Research methodology](research/research-methodology.md): repeatable source-first workflow for product and technical research.
 - [Source quality rubric](research/source-quality-rubric.md): source tiers, confidence, freshness, and evidence standards.
 - [Production engineering resources](research/production-engineering-resources.md): curated standards, tools, AI-agent guidance, and operational references.
 - [UI/UX research plan](research/ui-ux-research-plan.md): UX principles, agent-ready UI skill evaluation, mockup plan, and approval gate.
