@@ -11,6 +11,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Product
 
 - [Product vision](product-vision.md): intended users, problems, product principles, and desired outcomes.
+- [Product Requirements & Use-Case Registry](product/requirements-use-case-registry.md): canonical requirement IDs, original vs new ideas, acceptance criteria, priorities and phase gates.
 - [Product feature blueprint](product-feature-blueprint.md): proposed feature map, prioritization hypothesis, screen inventory, and pre-code mockup approval gate.
 - [Requirements](requirements.md): MVP scope and observable acceptance criteria.
 - [Competitive analysis](competitive-analysis.md): cross-product comparison with sources and confidence.
@@ -20,6 +21,7 @@ The project is in discovery. Add documents as findings and decisions become conc
 
 - [Research index and plan](research/README.md): sourced research, app teardowns, experiments, and observations.
 - [Competitor discovery dossier](research/competitor-discovery-dossier.md): initial landscape review, differentiation hypotheses, MVP implications, and UI/UX principles.
+
 - [AI workflow research plan](research/ai-workflow-research-plan.md): task-specific AI approaches, evaluation, and security boundaries.
 - [Gamification and learning-loop research plan](research/gamification-learning-loop-plan.md): evidence and experiments for optional, outcome-focused learning mechanics.
 - [Research methodology](research/research-methodology.md): repeatable source-first workflow for product and technical research.
