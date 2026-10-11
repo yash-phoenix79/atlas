@@ -4,6 +4,8 @@
 - **Last updated:** 2026-10-11
 - **Goal:** Develop a distinctive, highly usable Atlas interface and reviewable mockups before application implementation.
 
+> **Tool directory:** Use [Design Engineer Toolkit](design-engineer-toolkit.md) as the curated workflow and candidate index for the supplied [Design Engineer Tools](https://designengineer.tools/) directory. The directory is not an adoption checklist; tool choices require a concrete task, license/security review, and evidence.
+
 ## Research outcomes
 
 Research should produce:
