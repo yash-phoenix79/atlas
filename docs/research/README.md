@@ -80,3 +80,6 @@ For production readiness, use the canonical [requirements registry](../engineeri
 ## Visual and interaction design
 
 - [Evidence-backed visual and interaction design research](./evidence-backed-visual-and-interaction-design.md) — proposed color directions and semantic tokens, typography/density, screen jobs, motion, accessibility, responsive behavior, and a validation plan.
+- [Interaction-model research brief](atlas-interaction-model-research-brief.md) — hypotheses and risks for visual discovery, shared resource identity, spatial boards, graphs, search, reading, AI synthesis, portability, and accessibility.
+- [Screen-to-journey coverage matrix](atlas-screen-journey-coverage-matrix.md) — screen families, priorities, journey coverage, failure/recovery states, prototype acceptance criteria, and open decisions.
+- [Connected multi-screen journey prototype](../mockups/atlas-connected-journey-prototype.html) — clickable HTML concept spanning Home, Library, Search, Collections, Board, Graph, Resource Detail, Research, Inbox, Capture, and Settings. Illustrative local behavior only; not a production app or approved direction.
