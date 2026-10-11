@@ -2,6 +2,11 @@
 
 These are exploratory artifacts, not production UI and not connected to a backend.
 
+## Distinct design directions (new)
+
+- [Open the three structurally different directions](./atlas-distinct-design-directions.html): Living Library (Pinterest-style visual discovery), Spatial Studio (freeform canvas as the primary workspace), and Research Observatory (source-first reading with evidence and graph context).
+- These directions deliberately change information architecture and interaction model, not only the color palette. They share illustrative sample content so trade-offs can be compared.
+
 ## Visual System Lab
 
 - [Open source file on GitHub](./atlas-visual-system-lab.html)
