@@ -23,6 +23,9 @@ The project is in discovery. Add documents as findings and decisions become conc
 ## Security and architecture
 
 - [Security, privacy, and trust](security-privacy-trust.md): privacy threat model, security baseline, verification gates, and user-facing trust commitments.
+- [Security-first engineering program](security/security-program.md): threat model, critical controls, recovery strategy, risk register, and release gates.
+- [AI and coding-agent security](security/ai-agent-security.md): prompt injection, tool boundaries, MCP, coding-agent permissions, and candidate security skills.
+- [Security tooling and verification pipeline](security/security-tooling.md): recommended scanners, CI gates, test layers, severity policy, and evidence requirements.
 - [Architecture](architecture.md): proposed design, alternatives, trade-offs, and risks.
 
 Avoid treating planned controls or candidate tools as implemented or verified until they have actually been tested.
