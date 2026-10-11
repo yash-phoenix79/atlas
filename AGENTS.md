@@ -94,7 +94,7 @@ The canonical status and next milestone are in [README.md](README.md). Before pr
 
 ### Current phase
 
-As of 11 October 2026, Atlas remains in research/discovery. PR #14 is an open draft planning PR on planning/atlas-master-roadmap, not merged. The working-backwards plan locks the process and sequence only; it does not approve the final architecture, MVP, provider purchase, or production implementation. Prototypes are not proof of real persistence, authentication, accessibility, or production readiness.
+As of 11 October 2026, Atlas remains in research/discovery. PR #14 is open and ready for review on planning/atlas-master-roadmap, not merged. The working-backwards plan locks the process and sequence only; it does not approve the final architecture, MVP, provider purchase, or production implementation. Prototypes are not proof of real persistence, authentication, accessibility, or production readiness.
 
 ### Multi-agent protocol
 
