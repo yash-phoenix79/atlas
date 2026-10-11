@@ -5,10 +5,12 @@ This file supplements, and never overrides, [AGENTS.md](AGENTS.md).
 ## Required reading order
 
 1. AGENTS.md and root README.md.
-2. [Working-backwards plan](docs/plan/atlas-working-backwards-plan.md).
-3. [Master roadmap](docs/research/atlas-master-execution-roadmap.md).
-4. [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md).
-5. [Multi-agent first-principles protocol](docs/research/multi-agent-first-principles-protocol.md).
+2. [Master execution plan](docs/plan/atlas-master-execution-plan.md) and [execution backlog / gap register](https://github.com/yash-phoenix79/atlas/issues/15).
+3. [Working-backwards plan](docs/plan/atlas-working-backwards-plan.md).
+4. [Master roadmap](docs/research/atlas-master-execution-roadmap.md).
+5. [AI engineering plan](docs/research/atlas-ai-engineering-execution-plan.md).
+6. [Multi-agent first-principles protocol](docs/research/multi-agent-first-principles-protocol.md).
+7. [Agent Systems Lab](docs/research/agent-systems-lab.md).
 6. Relevant security, requirements, production-readiness and quality-bar docs before touching sensitive code.
 
 ## What Atlas is and why
