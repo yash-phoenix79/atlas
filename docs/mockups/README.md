@@ -1,6 +1,12 @@
 # Atlas Design Mockups
 
-These are exploratory artifacts, not production UI and not connected to a backend.
+## Approved reference: Light-first Atlas UI
+
+- [Open the approved light-first UI review prototype](./atlas-light-ui-final-review.html). This is the locked visual reference for the next implementation phase: pale surfaces, pastel resource accents, cobalt interaction color, content-led discovery, collections, spatial thinking and source-first research.
+- Decision record: [2026-10-11 light-first design lock](../decisions/2026-10-11-light-first-design-lock.md).
+- The reference remains a prototype with sample data and illustrative interactions, not production UI connected to a backend. Owner approval locks the visual direction; it does not imply that prototype behavior is implemented or tested.
+
+The other artifacts below remain explorations and research references unless explicitly marked otherwise.
 
 ## Distinct design directions (new)
 
@@ -41,4 +47,4 @@ GitHub's normal file viewer displays HTML source rather than rendering the page.
 
 ## Approval gate
 
-These prototypes do not authorize production UI work. The owner must explicitly approve the visual direction, core flows, and initial scope after reviewing the evidence and test results.
+The light-first visual direction is approved; see the decision record. Production implementation may proceed in that direction, while first-release scope, core journey acceptance criteria, accessibility, security, engineering review and tests remain required. Exploratory alternatives below are not independently approved visual directions.
