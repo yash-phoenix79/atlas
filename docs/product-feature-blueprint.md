@@ -14,6 +14,14 @@ The intended flow is:
 
 The application should remain useful as a straightforward library even when AI is unavailable. AI must be grounded in the user's own resources, show sources, and never silently invent metadata or pretend extraction succeeded.
 
+## Scope and ownership principles
+
+- **Single-user v1:** no teams, sharing, billing, roles, or multi-tenant infrastructure unless a concrete requirement emerges.
+- **Data ownership:** define canonical storage, export, backup/restore, deletion, and external AI/provider boundaries before production implementation.
+- **Capture honesty:** a shareable URL should be saveable even if platform content cannot be extracted. Distinguish saved link, metadata extracted, content extracted, and fully processed states.
+- **Low maintenance:** prefer one deployable application and proven dependencies. Do not add distributed services, a dedicated vector database, or an agent framework without measured need.
+- **Mockup gate:** no production application code until the owner reviews and explicitly approves the main UI direction, core flow, and initial scope.
+
 ## Product requirements by journey
 
 ### 1. Capture and import
