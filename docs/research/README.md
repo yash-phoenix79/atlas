@@ -46,6 +46,7 @@ Citations should be near the claim they support. Prefer specific docs, files, re
 ## Atlas execution plan
 
 - [Atlas Master Execution Roadmap](atlas-master-execution-roadmap.md) — granular tracks for toolchain evaluation, user-job research, product/repository teardowns, safe reverse-engineering agent skills, UI experiments, accessibility/usability validation, MVP approval, backend research, AI-layer evaluation, and production vertical slices. Planning artifact only; it does not mean those tracks have been completed.
+- [AI Engineering Execution Plan](atlas-ai-engineering-execution-plan.md) — backend/data contracts, paid model API onboarding, ingestion and retrieval, Jev evaluation, AWS AI-DLC pilot, coding-agent coordination, AI agency permissions, evaluation, observability and cost controls. Proposed sequence; decisions and implementation remain gated on evidence and approval.
 
 ## Canonical research guides
 
