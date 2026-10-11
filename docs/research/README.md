@@ -51,6 +51,8 @@ Citations should be near the claim they support. Prefer specific docs, files, re
 - [Research plan](research-plan.md): investigation sequence.
 - [Product teardown template](product-teardown-template.md): reusable format for product analysis.
 - [Competitor discovery dossier](competitor-discovery-dossier.md): first-pass competitor landscape, evidence limitations, differentiation hypotheses, MVP implications, and UI/UX principles.
+- [AI workflow research plan](ai-workflow-research-plan.md): compare task-specific AI patterns, evaluation criteria, safety, privacy, cost and latency.
+- [Gamification & learning-loop research](gamification-learning-loop-plan.md): evidence-led learning mechanics, opt-in controls, and outcome/guardrail metrics.
 
 ## Research document conventions
 
